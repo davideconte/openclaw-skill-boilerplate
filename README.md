@@ -1,8 +1,8 @@
 # openclaw-skill-boilerplate
 
-[![CI](https://github.com/openclaw/openclaw-skill-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/openclaw/openclaw-skill-boilerplate/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/openclaw-skill-boilerplate.svg)](https://www.npmjs.com/package/openclaw-skill-boilerplate)
+[![CI](https://github.com/davideconte/openclaw-skill-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/davideconte/openclaw-skill-boilerplate/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-brightgreen)](https://github.com/openclaw/openclaw)
 
 Production-ready boilerplate for building [OpenClaw](https://github.com/openclaw/openclaw) skills. Scaffold, develop, and publish skills to ClaWHub in minutes.
 
