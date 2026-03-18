@@ -1,0 +1,33 @@
+---
+name: {{SKILL_NAME}}
+description: An OpenClaw skill that does something useful.
+version: 0.1.0
+author: ""
+tags:
+  - {{SKILL_NAME}}
+triggers:
+  - use {{SKILL_NAME}}
+  - run {{SKILL_NAME}}
+---
+
+# {{SKILL_TITLE}}
+
+Describe what your skill does here.
+
+## Usage
+
+Explain how an AI agent should invoke this skill.
+
+## Tools
+
+### example-tool
+
+Describe what this tool does.
+
+**Parameters:**
+- `input` (string, required): The input to process
+
+**Example:**
+```
+Process this input with {{SKILL_NAME}}
+```

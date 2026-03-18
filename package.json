@@ -1,0 +1,41 @@
+{
+  "name": "openclaw-skill-boilerplate",
+  "version": "1.0.0",
+  "description": "Production-ready boilerplate for building OpenClaw skills. Scaffold, develop, and publish skills to ClaWHub.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "openclaw-skill-boilerplate": "dist/scripts/scaffold.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "scaffold": "ts-node scripts/scaffold.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "ai-agent",
+    "skill",
+    "boilerplate",
+    "scaffold"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "templates",
+    "SKILL.md",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}

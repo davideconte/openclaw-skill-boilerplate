@@ -1,0 +1,40 @@
+/**
+ * {{SKILL_TITLE}} - OpenClaw Skill
+ *
+ * Main entry point for the {{SKILL_NAME}} skill.
+ */
+
+export interface ToolResult {
+  success: boolean;
+  data?: unknown;
+  error?: string;
+}
+
+export interface SkillTool {
+  name: string;
+  description: string;
+  execute: (args: Record<string, unknown>) => Promise<ToolResult>;
+}
+
+const exampleTool: SkillTool = {
+  name: "example-tool",
+  description: "An example tool for {{SKILL_NAME}}.",
+  execute: async (args: Record<string, unknown>): Promise<ToolResult> => {
+    const input = args.input as string;
+    return {
+      success: true,
+      data: `Processed: ${input}`,
+    };
+  },
+};
+
+export const tools: SkillTool[] = [exampleTool];
+
+export default {
+  metadata: {
+    name: "{{SKILL_NAME}}",
+    description: "An OpenClaw skill.",
+    version: "0.1.0",
+  },
+  tools,
+};
